@@ -1,0 +1,15 @@
+<view style='width:100%;min-height:1100rpx;background:#091E2E'>
+<view class='title-nav'>
+  <swiper  indicator-dots="{{indicatorDots}}" style='width:100%;height:800rpx'
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width:100%;height:850rpx;'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='title-btn'>
+    <view class='box'bindtap="bindViewlogin">进入主页</view>
+</view>
+</view>

@@ -1,0 +1,39 @@
+.title-nav {
+  width: 100%;
+  height: 880rpx;
+}
+
+.title-btn {
+  width: 100%;
+  height: 220rpx;
+}
+
+/*
+里面的小盒子按钮
+  */
+
+.box {
+  width: 400rpx;
+  height: 85rpx;
+  border-radius: 20px;
+  background: #9BA3B5;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 17px;
+}
+.box:link{
+  color: coral;
+}
+.box:visited{
+  color: coral;
+}
+.box:hover{
+  color: fff;
+}
+.box:active{
+  color: fuchsia;
+}

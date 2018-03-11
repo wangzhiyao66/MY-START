@@ -1,0 +1,23 @@
+.exten_images{
+  width: 100%;
+  min-height:1100rpx;
+}
+/*
+里面的小盒子按钮
+  */
+.box{
+width: 400rpx;
+height: 85rpx;
+border-radius:20px;
+background: #fff;
+position: absolute;
+bottom: 30%;
+left: 23%;
+margin:0 auto;
+text-align: center;
+padding-top:6px;
+box-sizing: border-box; 
+cursor: pointer;
+font-size: 17px;
+}
+

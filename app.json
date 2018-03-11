@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/extension/extension",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/recommend/recommend",
+    "pages/register/register"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "简约范",
+    "navigationBarTextStyle":"black"
+  }
+}
