@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    homeimages:'../img/home-t.png'
+    homeimages:'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/home-t.png'
   },
 
   /**

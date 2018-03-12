@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    src:'../img/rmd/00.png',
+    src:'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/00.png',
     username:'',
     password:''
   },

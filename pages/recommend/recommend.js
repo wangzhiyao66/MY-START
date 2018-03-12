@@ -5,10 +5,10 @@ Page({
    */
   data: {
     imgUrls: [
-      '../img/rmd/01.png',
-      '../img/rmd/02.png',
-      '../img/rmd/03.png',
-      '../img/rmd/04.png'
+      'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/01.png',
+      'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/02.png',
+      'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/03.png',
+      'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/04.png'
     ],
     indicatorDots: false,
     autoplay: true,
