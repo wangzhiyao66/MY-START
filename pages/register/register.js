@@ -6,20 +6,24 @@ Page({
   data: {
     src: '../img/rmd/00.png',
     username: '',
-    password: ''
+    password: '',
+    Email:''
   },
   bindViewTap: function () {
     console.log('123');
   },
   // -------------------获取用户账号和密码----------------
   getuser: function (e) {
-    console.log(event);
     this.setData({
       username: e.detail.value
     })
   },
+  getEmail:function(e){
+    this.setData({
+      Email: e.detail.value
+    })
+  },
   getpassword: function (e) {
-    console.log(event);
     this.setData({
       password: e.detail.value
     })

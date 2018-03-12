@@ -10,15 +10,17 @@
     </view>
 
     <view class='user'>
-      <input type='text' bindblur='getuser' placeholder='请输入用户名' bindinput="username" class='username'></input>
+      <input type='text' bindblur='getuser' placeholder='昵称' bindinput="username" class='username'></input>
     </view>
 
     <view class='user'>
-      <input type='text' bindblur='getpassword' placeholder='请输入密码' bindinput="password" class='password'></input>
+      <input type='text' bindblur='getEmail' placeholder='Email' bindinput="Email" class='password'></input>
     </view>
-
+    <view class='user'>
+      <input type='text' bindblur='getpassword' placeholder='密码' bindinput="password" class='password'></input>
+    </view>
     <view class='btn_login'>
-      <button type="primary" style='line-height:35px;width:80%;height:35px;border-radius:20px;font-size:17px;'  bindtap="login" bindgetuserinfo="getUserInfo">注 册</button>
+      <button type="primary" style='line-height:35px;width:80%;height:35px;border-radius:20px;font-size:17px;' bindtap="login" bindgetuserinfo="getUserInfo">注 册</button>
     </view>
   </view>
 
