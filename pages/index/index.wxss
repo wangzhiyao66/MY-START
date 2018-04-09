@@ -1,21 +1,25 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  position: relative
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+/*左侧导航栏  */
+.tab-left-nav{
+  height: 100%;
+  width: 200rpx;
+  background: #ddd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #555; 
 }
+/*头部导航栏  */
+.tab-nav{
 
-.userinfo-nickname {
-  color: #aaa;
 }
+/*内容列表  */
+.tab-list{
 
-.usermotto {
-  margin-top: 200px;
 }
