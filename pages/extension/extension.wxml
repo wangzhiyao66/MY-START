@@ -1,4 +1,5 @@
 <view style='width：100%；height:100%;'>
    <image class="exten_images" src="{{homeimages}}" ></image> 
    <view class='box'bindtap="bindViewextension">开始探索</view>
+   <view class='box'bindtap="bindViewTap">第一次提交测试</view>
 </view>

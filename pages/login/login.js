@@ -1,18 +1,19 @@
 Page({
 
+  // 第一次提交测试数据
   /**
    * 页面的初始数据
    */
   data: {
-    src:'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/00.png',
-    username:'',
-    password:''
+    src: 'http://lingakg.oss-cn-shanghai.aliyuncs.com/zhiwen/rmd/00.png',
+    username: '',
+    password: ''
   },
-  bindViewTap:function(){
-      console.log('123');
+  bindViewTap: function () {
+    console.log('123');
   },
   // -------------------获取用户账号和密码----------------
-  getuser:function(e){
+  getuser: function (e) {
     console.log(event);
     this.setData({
       username: e.detail.value
@@ -24,21 +25,21 @@ Page({
       password: e.detail.value
     })
   },
-  login:function(){
-      let obj ={
-        'user': this.data.username,
-        'password':this.data.password
-      }
-      console.log('login',obj);
-      wx:wx.navigateTo({
-        url: '../index/index',
-      })
+  login: function () {
+    let obj = {
+      'user': this.data.username,
+      'password': this.data.password
+    }
+    console.log('login', obj);
+    wx: wx.navigateTo({
+      url: '../index/index',
+    })
   },
-  addUser:function(){
+  addUser: function () {
     wx: wx.navigateTo({
       url: '../register/register',
     })
   }
 
-  
+
 })
