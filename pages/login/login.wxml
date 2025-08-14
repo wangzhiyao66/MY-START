@@ -23,7 +23,7 @@
   </view>
 
   <view class='user-title'>
-    <text class='user-title' bindtap="addUser">新用户？点击这里注册</text>
+    <text class='user-title' bindtap="addUser">新用户？点击这里注册哈哈哈</text>
   </view>
 
 </view>
